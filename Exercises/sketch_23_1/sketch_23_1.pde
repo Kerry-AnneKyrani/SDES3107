@@ -15,7 +15,7 @@ void draw(){
 float x = mouseX;
 float y = mouseY;
 float ix = width - mouseX;
-float iy = mouseY - height; // Inverse Y background(126);
+float iy = mouseY - height; 
 fill(122, 250);
 ellipse(x, height/2, y, y);
 fill(0, 50);
